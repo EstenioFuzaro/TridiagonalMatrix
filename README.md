@@ -15,13 +15,19 @@ This repository contains MATLAB code related to tridiagonal matrices, specifical
 3. **TDMA2.m**
    - An alternative implementation of the Thomas Algorithm, offering flexibility or optimization options compared to `TDMA.m`.
 
-4. **fatoracao_lu_triadiagonal.m**
+4. **backwardsub.m**
+   - MATLAB function for backward substitution, a crucial step in solving linear systems.
+
+5. **elgauss.m**
+   - MATLAB function for Gaussian elimination.
+
+6. **fatoracao_lu_triadiagonal.m**
    - MATLAB function for LU factorization of a tridiagonal matrix. This factorization can be useful for solving linear systems involving the same tridiagonal matrix multiple times.
 
-5. **solveTridiagonal.m**
+7. **solveTridiagonal.m**
    - A function that encapsulates the process of solving a tridiagonal linear system. This may include calls to the Thomas Algorithm or other methods depending on the efficiency and accuracy requirements.
 
-6. **solveWaveEquation.m**
+8. **solveWaveEquation.m**
    - MATLAB script or function for solving the wave equation using tridiagonal matrices. This can be a valuable resource for simulations involving wave propagation in various domains.
 
 ## Usage
